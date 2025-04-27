@@ -1,3 +1,5 @@
+I am not the original designer, programmer or developer of this AI, I simply wanted to fix a few issues with it after years of updates to the game, and in turn ended up working on it for players of the EU server. I Have no plans to be a long term developer of this, or project manager and claim no rights to any of the work done to it prior to my work on it. 
+
 # AzzyAI
 
 This is the source code repository for AzzyAI. 
