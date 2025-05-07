@@ -104,3 +104,16 @@ D:\repositories\anyuta1166\AzzyAI\GUI\AzzyAIConfig\obj\x86\Release\AzzyAIConfig.
 D:\repositories\anyuta1166\AzzyAI\GUI\AzzyAIConfig\obj\x86\Release\AzzyAIConfig.csproj.CoreCompileInputs.cache
 D:\repositories\anyuta1166\AzzyAI\GUI\AzzyAIConfig\obj\x86\Release\AzzyAIConfig.exe
 D:\repositories\anyuta1166\AzzyAI\GUI\AzzyAIConfig\obj\x86\Release\AzzyAIConfig.pdb
+C:\Users\lotup\Source\Repos\DravDreameater\AzzyAI-Evolved\GUI\AzzyAIConfig\obj\x86\Release\AzzyAIConfig.csproj.AssemblyReference.cache
+C:\Users\lotup\Source\Repos\DravDreameater\AzzyAI-Evolved\GUI\AzzyAIConfig\obj\x86\Release\AzzyAIConfig.AzzyAIAboutBox.resources
+C:\Users\lotup\Source\Repos\DravDreameater\AzzyAI-Evolved\GUI\AzzyAIConfig\obj\x86\Release\AzzyAIConfig.M_PvpTactControl.resources
+C:\Users\lotup\Source\Repos\DravDreameater\AzzyAI-Evolved\GUI\AzzyAIConfig\obj\x86\Release\AzzyAIConfig.ExtraControl.resources
+C:\Users\lotup\Source\Repos\DravDreameater\AzzyAI-Evolved\GUI\AzzyAIConfig\obj\x86\Release\AzzyAIConfig.PvpTactControl.resources
+C:\Users\lotup\Source\Repos\DravDreameater\AzzyAI-Evolved\GUI\AzzyAIConfig\obj\x86\Release\AzzyAIConfig.MerTactControl.resources
+C:\Users\lotup\Source\Repos\DravDreameater\AzzyAI-Evolved\GUI\AzzyAIConfig\obj\x86\Release\AzzyAIConfig.HomTactControl.resources
+C:\Users\lotup\Source\Repos\DravDreameater\AzzyAI-Evolved\GUI\AzzyAIConfig\obj\x86\Release\AzzyAIConfig.MainForm.resources
+C:\Users\lotup\Source\Repos\DravDreameater\AzzyAI-Evolved\GUI\AzzyAIConfig\obj\x86\Release\AzzyAIConfig.Properties.Resources.resources
+C:\Users\lotup\Source\Repos\DravDreameater\AzzyAI-Evolved\GUI\AzzyAIConfig\obj\x86\Release\AzzyAIConfig.csproj.GenerateResource.cache
+C:\Users\lotup\Source\Repos\DravDreameater\AzzyAI-Evolved\GUI\AzzyAIConfig\obj\x86\Release\AzzyAIConfig.csproj.CoreCompileInputs.cache
+C:\Users\lotup\Source\Repos\DravDreameater\AzzyAI-Evolved\GUI\AzzyAIConfig\obj\x86\Release\AzzyAIConfig.exe
+C:\Users\lotup\Source\Repos\DravDreameater\AzzyAI-Evolved\GUI\AzzyAIConfig\obj\x86\Release\AzzyAIConfig.pdb

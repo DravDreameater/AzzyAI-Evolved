@@ -1711,9 +1711,9 @@ namespace AzzyAIConfig
                 {
                     _SeraParalyzeLevel = 1;
                 }
-                else if (value > 5)
+                else if (value > 10)
                 {
-                    _SeraParalyzeLevel = 5;
+                    _SeraParalyzeLevel = 10;
                 }
                 else
                 {
