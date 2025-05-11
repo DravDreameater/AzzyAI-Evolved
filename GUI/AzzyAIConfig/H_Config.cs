@@ -253,6 +253,10 @@ namespace AzzyAIConfig
             {
                 SeraParalyzeLevel = Convert.ToInt32(Regex.Match(file, "SeraParalyzeLevel\\s*=\\s*-?\\d+", RegexOptions.Multiline).Value.Split('=')[1].Trim());
             }
+            if (Regex.IsMatch(file, "SeraPainkillerLevel\\s*=\\s*-?\\d+", RegexOptions.Multiline))
+            {
+                SeraPainkillerLevel = Convert.ToInt32(Regex.Match(file, "\\s*=\\s*-?\\d+", RegexOptions.Multiline).Value.Split('=')[1].Trim());
+            }
             if (Regex.IsMatch(file, "UseSeraPoisonMist\\s*=\\s*-?\\d+", RegexOptions.Multiline))
             {
                 UseSeraPoisonMist = Convert.ToInt32(Regex.Match(file, "UseSeraPoisonMist\\s*=\\s*-?\\d+", RegexOptions.Multiline).Value.Split('=')[1].Trim());
@@ -2135,6 +2139,13 @@ namespace AzzyAIConfig
             get { return _SeraParalyzeLevel; }
             set { _SeraParalyzeLevel = value; }
         }
+        static int _SeraPainkillerLevel = 0;
+        public static int SeraPainkillerLevel
+        {
+            get { return _SeraPainkillerLevel; }
+            set { _SeraPainkillerLevel = value; }
+        }
+
         static int _UseSeraPoisonMist = 0;
         public static int UseSeraPoisonMist
         {
@@ -2679,6 +2690,7 @@ namespace AzzyAIConfig
             get { return _PVPmode; }
             set { _PVPmode = value; }
         }
-        #endregion
+
+       #endregion
     }
 }

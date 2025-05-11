@@ -360,6 +360,7 @@ namespace AzzyAIConfig
             _BayeriHailegeStarLevel = Convert.ToInt32(((DefaultValueAttribute)TypeDescriptor.GetProperties(this)["BayeriHailegeStarLevel"].Attributes[typeof(DefaultValueAttribute)]).Value);
             _UseSeraParalyze = Convert.ToBoolean(((DefaultValueAttribute)TypeDescriptor.GetProperties(this)["UseSeraParalyze"].Attributes[typeof(DefaultValueAttribute)]).Value);
             _SeraParalyzeLevel = Convert.ToInt32(((DefaultValueAttribute)TypeDescriptor.GetProperties(this)["SeraParalyzeLevel"].Attributes[typeof(DefaultValueAttribute)]).Value);
+            _SeraPainkillerLevel = Convert.ToInt32(((DefaultValueAttribute)TypeDescriptor.GetProperties(this)["SeraPainkillerLevel"].Attributes[typeof(DefaultValueAttribute)]).Value);
             _UseSeraPoisonMist = Convert.ToBoolean(((DefaultValueAttribute)TypeDescriptor.GetProperties(this)["UseSeraPoisonMist"].Attributes[typeof(DefaultValueAttribute)]).Value);
             _SeraPoisonMistLevel = Convert.ToInt32(((DefaultValueAttribute)TypeDescriptor.GetProperties(this)["SeraPoisonMistLevel"].Attributes[typeof(DefaultValueAttribute)]).Value);
             _UseEleanorSonicClaw = Convert.ToBoolean(((DefaultValueAttribute)TypeDescriptor.GetProperties(this)["UseEleanorSonicClaw"].Attributes[typeof(DefaultValueAttribute)]).Value);
@@ -521,6 +522,7 @@ namespace AzzyAIConfig
             H_Config.BayeriHailegeStarLevel = _BayeriHailegeStarLevel;
             H_Config.UseSeraParalyze = Convert.ToInt32(_UseSeraParalyze);
             H_Config.SeraParalyzeLevel = _SeraParalyzeLevel;
+            H_Config.SeraPainkillerLevel = _SeraPainkillerLevel;
             H_Config.UseSeraPoisonMist = Convert.ToInt32(_UseSeraPoisonMist);
             H_Config.SeraPoisonMistLevel = _SeraPoisonMistLevel;
             H_Config.UseEleanorSonicClaw = Convert.ToInt32(_UseEleanorSonicClaw);
@@ -1695,13 +1697,13 @@ namespace AzzyAIConfig
             set { _UseSeraParalyze = value; }
         }
 
-        int _SeraParalyzeLevel = 5;
+        int _SeraParalyzeLevel = 10;
         [Category("AutoSkill Options"),
         Description(
             "Use this level of Needle of Paralyze. Overridden by skill tactics" +
             "                                                              "
             ),
-        DefaultValue(5)]
+        DefaultValue(10)]
         public int SeraParalyzeLevel
         {
             get { return _SeraParalyzeLevel; }
@@ -1718,6 +1720,33 @@ namespace AzzyAIConfig
                 else
                 {
                     _SeraParalyzeLevel = value;
+                }
+            }
+        }
+
+        int _SeraPainkillerLevel = 10;
+        [Category("AutoSkill Options"),
+        Description(
+            "Use this level of PainKiller. Overridden by skill tactics" +
+            "                                                              "
+            ),
+        DefaultValue(10)]
+        public int SeraPainkillerLevel
+        {
+            get { return _SeraPainkillerLevel; }
+            set
+            {
+                if (value < 1)
+                {
+                    _SeraPainkillerLevel = 1;
+                }
+                else if (value > 10)
+                {
+                    _SeraPainkillerLevel = 10;
+                }
+                else
+                {
+                    _SeraPainkillerLevel = value;
                 }
             }
         }

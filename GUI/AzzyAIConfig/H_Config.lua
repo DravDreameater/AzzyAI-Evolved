@@ -38,6 +38,7 @@ UseBayeriHailegeStar	=1
 BayeriHailegeStarLevel	=5
 UseSeraParalyze				=1
 SeraParalyzeLevel			=10
+SeraPainkillerLevel			=10
 UseSeraPoisonMist			=1 
 SeraPoisonMistLevel			=5
 UseEleanorSonicClaw		=0
