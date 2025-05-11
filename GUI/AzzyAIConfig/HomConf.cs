@@ -687,6 +687,7 @@ namespace AzzyAIConfig
             _BayeriHailegeStarLevel = H_Config.BayeriHailegeStarLevel;
             _UseSeraParalyze = Convert.ToBoolean(H_Config.UseSeraParalyze);
             _SeraParalyzeLevel = H_Config.SeraParalyzeLevel;
+            _SeraPainkillerLevel = H_Config.SeraPainkillerLevel;
             _UseSeraPoisonMist = Convert.ToBoolean(H_Config.UseSeraPoisonMist);
             _SeraPoisonMistLevel = H_Config.SeraPoisonMistLevel;
             _UseEleanorSonicClaw = Convert.ToBoolean(H_Config.UseEleanorSonicClaw);
