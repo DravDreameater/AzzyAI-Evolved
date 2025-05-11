@@ -3,10 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\lotup\\source\\repos\\DravDreameater\\AzzyAI-Evolved\\GUI\\AzzyAIConfig\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|AzzyAIConfig||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C13D0AF-2628-4BBD-BD10-780A78C09EE0}|AzzyAIConfig.csproj|c:\\users\\lotup\\source\\repos\\dravdreameater\\azzyai-evolved\\gui\\azzyaiconfig\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|df8f7042-0bb1-47d1-8e6d-deb3d07698bd"
+      "AbsoluteMoniker": "D:0:0:{5C13D0AF-2628-4BBD-BD10-780A78C09EE0}|AzzyAIConfig.csproj|c:\\users\\lotup\\source\\repos\\dravdreameater\\azzyai-evolved\\gui\\azzyaiconfig\\homconf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C13D0AF-2628-4BBD-BD10-780A78C09EE0}|AzzyAIConfig.csproj|solutionrelative:homconf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -16,11 +14,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             },
             {
               "$type": "Bookmark",
@@ -33,13 +35,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AzzyAIConfig",
-              "DocumentMoniker": "C:\\Users\\lotup\\source\\repos\\DravDreameater\\AzzyAI-Evolved\\GUI\\AzzyAIConfig\\AzzyAIConfig.csproj",
-              "RelativeDocumentMoniker": "AzzyAIConfig.csproj",
-              "ToolTip": "C:\\Users\\lotup\\source\\repos\\DravDreameater\\AzzyAI-Evolved\\GUI\\AzzyAIConfig\\AzzyAIConfig.csproj",
-              "RelativeToolTip": "AzzyAIConfig.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-11T01:44:44.086Z",
+              "Title": "HomConf.cs",
+              "DocumentMoniker": "C:\\Users\\lotup\\source\\repos\\DravDreameater\\AzzyAI-Evolved\\GUI\\AzzyAIConfig\\HomConf.cs",
+              "RelativeDocumentMoniker": "HomConf.cs",
+              "ToolTip": "C:\\Users\\lotup\\source\\repos\\DravDreameater\\AzzyAI-Evolved\\GUI\\AzzyAIConfig\\HomConf.cs",
+              "RelativeToolTip": "HomConf.cs",
+              "ViewState": "AgIAAFUBAAAAAAAAAAAqwGsBAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T15:41:26.576Z",
               "EditorCaption": ""
             }
           ]
