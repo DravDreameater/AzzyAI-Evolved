@@ -1795,6 +1795,14 @@ function GetSAtkSkill(myid)
 				else
 					level=SeraParalyzeLevel
 				end
+				elseif htype==SERA and UseSeraPainkiller==1 then
+				skill=MH_PAIN_KILLER
+				if SeraPainkillerLevel==nil then
+					level=10
+				else
+					level=SeraPainkillerLevel
+				end
+
 			elseif htype==ELEANOR and UseEleanorSonicClaw==1 and ( EleanorMode==0 or EleanorDoNotSwitchMode==1 ) then
 				skill=MH_SONIC_CRAW
 				if EleanorSonicClawLevel==nil then

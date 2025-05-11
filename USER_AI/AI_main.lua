@@ -78,10 +78,13 @@ function doInit(myid)
 		if UseSeraPoisonMist and GetV(V_HOMUNTYPE,myid)==SERA then
 			logstring=logstring.."UseSeraPoisonMist disabled - you don't have the skill!"
 		end
+
+		UseSeraPoisonMist=0
+
 		if UseSeraPainkiller and GetV(V_HOMUNTYPE,myid)==SERA then
 			logstring=logstring.."UseSeraPainkiller disabled - you don't have the skill!"
 		end
-		UseSeraPoisonMist=0
+	
 		UseSeraPainkiller=0
 	end
 	if GetV(V_SKILLATTACKRANGE,myid,MH_LAVA_SLIDE) == 1 then
@@ -330,7 +333,7 @@ function	OnSKILL_OBJECT_CMD (level,skill,id)
 		MyState = PROVOKE_ST
 		MyPEnemy = id
 		MyPSkill = skill
-		MyPSkillLevel = level
+		MyPSkillLevel = SeraPainkillerLevel
 		MyPMode = id
 		if MyFriends[id]~=FRIEND then
 			MyFriends[id]=PKFRIEND
@@ -2252,7 +2255,7 @@ function DoAutoBuffs(buffmode)
 					MyState = PROVOKE_ST
 					MyPEnemy = GetV(V_OWNER,MyID)
 					MyPSkill = skill
-					MyPSkillLevel = level
+					MyPSkillLevel = SeraPainkillerLevel
 					MyPMode = 7
 					TraceAI(MyState.." --> PROVOKE_ST to use "..FormatSkill(skill,level))
 					return OnPROVOKE_ST()
@@ -2279,7 +2282,7 @@ function DoAutoBuffs(buffmode)
 					MyState = PROVOKE_ST
 					MyPEnemy = GetV(V_OWNER,MyID)
 					MyPSkill = skill
-					MyPSkillLevel = level
+					MyPSkillLevel = SeraPainkillerLevel
 					MyPMode = 11
 					TraceAI(MyState.." --> PROVOKE_ST to use "..FormatSkill(skill,level))
 					return OnPROVOKE_ST()
@@ -2306,7 +2309,7 @@ function DoAutoBuffs(buffmode)
 					MyState = PROVOKE_ST
 					MyPEnemy = GetV(V_OWNER,MyID)
 					MyPSkill = skill
-					MyPSkillLevel = level
+					MyPSkillLevel = SeraPainkillerLevel
 					MyPMode = 12
 					TraceAI(MyState.." --> PROVOKE_ST to use "..FormatSkill(skill,level))
 					return OnPROVOKE_ST()
@@ -2333,7 +2336,7 @@ function DoAutoBuffs(buffmode)
 					MyState = PROVOKE_ST
 					MyPEnemy = GetV(V_OWNER,MyID)
 					MyPSkill = skill
-					MyPSkillLevel = level
+					MyPSkillLevel = SeraPainkillerLevel
 					MyPMode = 13
 					TraceAI(MyState.." --> PROVOKE_ST to use "..FormatSkill(skill,level))
 					return OnPROVOKE_ST()
@@ -2495,7 +2498,7 @@ function DoAutoBuffs(buffmode)
 						MyState = PROVOKE_ST
 						MyPEnemy = GetV(V_OWNER,MyID)
 						MyPSkill = skill
-						MyPSkillLevel = level
+						MyPSkillLevel = SeraPainkillerLevel
 						MyPMode = 7
 						TraceAI(MyState.." --> PROVOKE_ST: Using AoE skill as buff"..MyPState.." "..MyState.." "..MyPEnemy.." "..MyPSkill.." "..MyPSkillLevel)
 					return OnPROVOKE_ST()
@@ -2535,7 +2538,7 @@ function DoAutoBuffs(buffmode)
 							MyState = PROVOKE_ST
 							MyPEnemy = k
 							MyPSkill = skill
-							MyPSkillLevel = level
+							MyPSkillLevel = SeraPainkillerLevel
 							MyPMode = k
 							TraceAI(MyState.." --> PROVOKE_ST to use "..FormatSkill(skill,level).." on friend "..k)
 							return OnPROVOKE_ST()
@@ -2545,7 +2548,7 @@ function DoAutoBuffs(buffmode)
 						MyState = PROVOKE_ST
 						MyPEnemy = k
 						MyPSkill = skill
-						MyPSkillLevel = level
+						MyPSkillLevel = SeraPainkillerLevel
 						MyPMode = k
 						TraceAI(MyState.." --> PROVOKE_ST to use "..FormatSkill(skill,level))
 						return OnPROVOKE_ST()

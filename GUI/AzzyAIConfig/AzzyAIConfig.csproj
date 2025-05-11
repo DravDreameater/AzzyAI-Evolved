@@ -73,6 +73,9 @@
   <PropertyGroup>
     <ApplicationIcon>qNANE39 %281%29.ico</ApplicationIcon>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>AzzyAIConfig.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />

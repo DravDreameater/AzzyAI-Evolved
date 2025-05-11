@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\lotup\\source\\repos\\DravDreameater\\AzzyAI-Evolved\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lotup\\source\\repos\\DravDreameater\\AzzyAI-Evolved\\GUI\\AzzyAIConfig\\HomConf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GUI\\AzzyAIConfig\\HomConf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lotup\\source\\repos\\DravDreameater\\AzzyAI-Evolved\\GUI\\AzzyAIConfig\\H_Config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GUI\\AzzyAIConfig\\H_Config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lotup\\source\\repos\\DravDreameater\\AzzyAI-Evolved\\USER_AI\\AzzyUtil.lua||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:USER_AI\\AzzyUtil.lua||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,6 +22,10 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
@@ -34,28 +34,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "H_Config.cs",
-              "DocumentMoniker": "C:\\Users\\lotup\\source\\repos\\DravDreameater\\AzzyAI-Evolved\\GUI\\AzzyAIConfig\\H_Config.cs",
-              "RelativeDocumentMoniker": "GUI\\AzzyAIConfig\\H_Config.cs",
-              "ToolTip": "C:\\Users\\lotup\\source\\repos\\DravDreameater\\AzzyAI-Evolved\\GUI\\AzzyAIConfig\\H_Config.cs",
-              "RelativeToolTip": "GUI\\AzzyAIConfig\\H_Config.cs",
-              "ViewState": "AgIAAJoJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T22:39:23.933Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HomConf.cs",
-              "DocumentMoniker": "C:\\Users\\lotup\\source\\repos\\DravDreameater\\AzzyAI-Evolved\\GUI\\AzzyAIConfig\\HomConf.cs",
-              "RelativeDocumentMoniker": "GUI\\AzzyAIConfig\\HomConf.cs",
-              "ToolTip": "C:\\Users\\lotup\\source\\repos\\DravDreameater\\AzzyAI-Evolved\\GUI\\AzzyAIConfig\\HomConf.cs",
-              "RelativeToolTip": "GUI\\AzzyAIConfig\\HomConf.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T22:39:21.431Z",
+              "Title": "AzzyUtil.lua",
+              "DocumentMoniker": "C:\\Users\\lotup\\source\\repos\\DravDreameater\\AzzyAI-Evolved\\USER_AI\\AzzyUtil.lua",
+              "RelativeDocumentMoniker": "USER_AI\\AzzyUtil.lua",
+              "ToolTip": "C:\\Users\\lotup\\source\\repos\\DravDreameater\\AzzyAI-Evolved\\USER_AI\\AzzyUtil.lua",
+              "RelativeToolTip": "USER_AI\\AzzyUtil.lua",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAAAJ4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-11T15:14:04.709Z",
               "EditorCaption": ""
             }
           ]

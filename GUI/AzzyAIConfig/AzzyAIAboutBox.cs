@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Drawing;
 using System.Linq;
+using System.Diagnostics;
 using System.Reflection;
+using System.Security.Principal;
 using System.Windows.Forms;
 
 namespace AzzyAIConfig
